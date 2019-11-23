@@ -1,0 +1,113 @@
+/* 注册信息填写 */
+.register{
+    width: 100%;
+    height: 636px;
+    padding-top: 50px;
+    background: #f9f9f9;
+}
+.registerMain{
+    width: 855px;
+    height: 548px;
+    background: #fff;
+    margin: 0 auto;
+}
+.registerMain img{
+    display: block;
+    margin: 0 auto;
+}
+.registerMain h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 96px;
+    margin-top: 15px;
+}
+.registerMain .region{
+    margin-left: 262px;
+    width: 330px;
+    height: 102px;
+    
+}
+.registerMain .phoneNum{
+    width: 330px;
+    height: 71px;
+    
+    margin-left: 262px;
+    
+
+}
+.registerMain .region select{
+    border: 1px solid #e8e8e8;
+    height: 40px;
+    width: 330px;
+    outline: none;
+}
+
+
+
+.registerMain .phoneNum{
+    margin-top: 5px;
+}
+.registerMain .phoneNum .selectPhoneNum{
+    width: 72px;
+    height: 40px;
+    float: left;
+ 
+}
+.registerMain b{
+    font-size: 12px;
+    line-height: 30px;
+}
+.registerMain .region p{
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+.phoneNum .textBox{
+    width: 256px;
+    height: 30px;
+    float: left;
+    
+}
+.phoneNum .textBox .textBoxInput{
+    width: 256px;
+    height: 34px;
+    
+   
+}
+.registerMain .submit{
+    margin-left: 262px;
+    width: 330px;
+    height: 42px;
+    color: #fff;
+    margin-top: 30px;
+    background: #ff6700;
+ 
+}
+.attention{
+    margin-top: 80px;
+    margin-left: 200px;
+    font-size: 14px;
+}
+/* .attention:hover .icon-duihaocheckmark17{
+    color: #ff6700;
+    background: #fff;
+    border-radius: 50%;
+}*/
+.icon-duihaocheckmark17{
+    color: #fff;
+    background: #ff6700;
+    border-radius: 50%;
+} 
+.attention a{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 底部 */
+
+
+
+.pageLast{
+    margin-top: 100px;
+}

@@ -1,0 +1,29 @@
+body,p,h1,h2,h3,h4,h5,h6,dl,dd{
+    margin: 0;
+    font-size: 12px;
+    font-family: '楷体';
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearfix:after{
+    content: '';
+    display:block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+    /* ie7及以下兼容 */
+}
+a{
+    text-decoration: none;
+    /* color: #000; */
+}
+img{
+    border:none;
+}

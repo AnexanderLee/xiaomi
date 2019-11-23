@@ -1,0 +1,384 @@
+/* 商品标题  */
+.miPlay{
+    width: 100%;
+    height: 63px;
+    box-shadow: 4px 7px 8px 0 #ccc;
+  
+}
+.miPlayMain{
+    width: 1226px;
+    height: 63px;
+    /* background: red; */
+    margin: 0 auto;
+}
+.miPlayLeft{
+    float: left; 
+    font-size: 20px;
+    line-height: 63px; 
+}
+.miPlayRight{
+float: right;
+}
+.miPlayRight li{
+    line-height: 63px;
+    float: left;
+}
+.miPlayRight a{
+    padding: 0 8px;
+    border-right: 1px solid #e8e2e0;
+    color: #000;
+    font-size: 12px;
+}
+.miPlayRight a:hover{
+    color: #ff6700;
+}
+.miPlayRight .miPlayRightOne{
+    padding-left: 0;
+}
+.miPlayRight .miPlayRightFive{
+    padding-right: 0;
+    border-right: none;
+}
+/* 登录提醒 */
+.loginAtten{
+    width: 100%;
+    height: 48px;
+    background: #f7f7f7;
+}
+.loginAttenMain{
+    width: 1226px;
+    height: 48px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+}
+.loginAttenMain a{
+    color: #ff6700;
+    margin-left: 30px;
+}
+/* 商品详情 */
+.goodsInfor{
+    width: 100%;
+    height: 1500px;
+    /* background: pink; */
+}
+.goodsInforMain{
+    width: 1226px;
+    height: 1500px;
+    /* background: red; */
+    margin: 0 auto;
+}
+.miPlayPic{
+    width: 620px;
+    height: 1500px;
+    
+    float: left;
+    
+}
+/* .miPlayPic img{
+    display: block;
+    margin: 78px auto;
+    
+} */
+
+
+.miPlayInfor{
+    width: 606px;
+    height: 1500px;
+    /* background: orange; */
+    float: left;
+}
+/* 概述 */
+.genInfor{
+    width: 606px;
+    height: 158px;
+    padding-top: 32px;
+    /* background: green; */
+    border-bottom: 1px solid #e0e0e0;
+    /* margin-bottom: 40px; */
+    z-index: 1;
+}
+.genInfor h2{
+    font-size: 25px;
+    line-height: 25px;
+    font-family: '微软雅黑';
+    
+}
+.genInfor p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 6px;
+    color: #b0b0b0;
+}
+.genInfor i{
+    font-size: 14px;
+    line-height: 50px;
+    font-style: normal;
+    color: #ff6700;
+}
+.genInfor h3{
+    font-size: 16px;
+    color: #ff6700;
+
+}
+/* 送货地址 */
+.adress{
+    width: 606px;
+    height: 71px;
+    /* background: red; */
+    margin-top: 40px;
+    padding-top: 31px;
+    border: 1px solid #e0e0e0;
+    /* margin-bottom: 24px; */
+}
+.adress span{
+    margin-left: 23px;
+    margin-right: 12px;
+    float: left;
+    /* margin-top: 31px; */
+}
+.adress .adressInfor{
+    font-size: 14px;
+    float: left;
+}
+.adress .adressInfor a{
+    color: #ff6700;
+}
+/* 版本 */
+.style{
+    width: 606px;
+    height: 94px;
+    /* background: blue; */
+    padding-top: 23px;
+    /* margin-bottom: 13px; */
+}
+.style h2{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 42px;
+    margin-bottom: 8px;
+}
+.selectStyle{
+    width:242px;
+    height: 42px;
+    border: 1px solid #ff6700;
+    padding:0 27px;
+    font-size: 14px;
+    line-height: 42px;
+    
+}
+.selectStyle b{
+    font-weight: normal;
+    color: #ff6700;
+    float: left;
+}
+.selectStyle em{
+    font-style: normal;
+    color: #757575;
+    float: right;
+}
+/* 颜色 */
+.color{
+    width: 606px;
+    height: 152px;
+    /* background: brown; */
+    padding-top: 13px;
+}
+.color h2{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 45px;   
+}
+.color li{
+    /* display: block; */
+    width:295px;
+    height: 30px;
+    margin:0 3px;
+    margin-bottom: 18px;
+    padding-top: 12px;
+    color: #000;
+    border: 1px solid #e0e0e0;
+    float: left;
+}
+.color .colorThree{
+    margin-right: 0;
+}
+.color li img{
+    margin-left: 111px;
+    margin-right: 17px;
+}
+.color li:hover{
+    border: 1px solid #ff6700;
+    color: #ff6700;
+}
+/* 意外保护 */
+.protect{
+    width: 606px;
+    height: 344px;
+    /* background: skyblue; */
+}
+.protect h3{
+    display: inline-block;
+    line-height: 48px;
+    width: 528px;
+    font-weight: normal;
+    font-size: 18px;
+    float: left;
+}
+.protect a{
+    display: inline-block;
+    margin-top: 15px;
+    line-height:52px;
+    color: #ff6700;
+    font-size: 12px;
+    /* float: left; */
+}
+.wrong{
+    height: 140px;
+    width: 604px;
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+    /* padding-top:  */
+}
+.radio{
+    width: 141px;
+    height: 140px;
+    float: left;
+}
+.radio input{
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.radio span{
+    color: #6a84d8;
+    font-size: 39px;
+    margin-left: 30px;
+    /* margin-right: 0px; */
+}
+.protectWord{
+    width: 463px;
+    height: 106px;
+    padding-top: 34px;
+    float: left;
+}
+.protectWord h5{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+}
+.protectWord p{
+    font-size: 12px;
+    line-height: 40px;
+}
+.protectWord a{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 0;
+}
+.protectWord a:nth-of-type(1){
+    border-right: 1px solid #75a3d3;
+    padding-right: 6px;
+}
+.protectWord i{
+    float: right;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 20px;
+}
+.broke{
+    height: 140px;
+    width: 604px;
+    border: 1px solid #e0e0e0;
+}
+
+/* 延长保修 */
+.insur{
+    width: 606px;
+    height: 204px;
+    border-bottom: 1px solid #e0e0e0;
+   
+    /* background:gray; */
+
+}
+.insur h3{
+    display: inline-block;
+    line-height: 48px;
+    width: 520px;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.insur a{
+    color: #ff6700;
+    font-size: 12px;
+}
+/* 总价 */
+.sumPrice{
+    width: 606px;
+    height: 140px;
+    padding-top: 30px;
+    background: white;
+}
+.sumPriceMain{
+    width: 546px;
+    height: 122px;
+    background: #f9f9fa;
+    padding:9px 30px;
+}
+.sumPriceMain p{
+    font-size: 12px;
+    line-height: 72px;
+    color: #926161;
+}
+.sumPriceMain span{
+    float: right;
+    color: #926161;
+}
+.sumPriceMain b{
+    font-size: 23px;
+    color: #ff6700;
+}
+/* 付款加购 */
+.dollor{
+    width: 606px;
+    height: 128px;
+    padding-top: 32px;
+    /* background: yellow; */
+}
+.toCart{
+    width: 300px;
+    height: 55px;
+    background: #ff6700;
+    font-size: 15px;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    border: none;
+    outline: none;
+    font-family:'微软雅黑';
+}
+.like{
+    width: 142px;
+    height: 55px;
+    background: #b0b0b0;
+    float: left;
+    margin-left: 13px;
+}
+.like span:hover{
+    color: red;
+}
+.like span{
+    font-size: 18px;
+    line-height: 55px;
+    color:#fff;
+}
+.like em{
+    font-style: normal;
+    margin-left: 6px;
+    color: #fff;
+   font-size: 15px;
+   font-family:'微软雅黑';
+}

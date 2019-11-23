@@ -1,0 +1,1289 @@
+/* 内容一 */
+.contextOne{
+    width: 100%;
+    height: 460px;
+    background: #fff;
+    /* position: relative; */
+}
+.contextOneMain{
+    width: 1226px;
+    height: 460px;
+    background: gray;
+    margin: 0 auto;
+    background: url(../images/contextOnebg.png);
+    position: relative;
+}
+
+/* 内容一右下角轮播图圆点 */
+.dotOne,.dotTwo,.dotThree,.dotFour,.dotFive{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ccc;
+    bottom: 25px;
+    border-radius: 50%;
+
+}
+.dotOne{
+    background: rgb(0,0,0,0.2);
+    position: absolute;
+    right: 114px;
+    /* bottom: 25px; */
+}
+.dotTwo{
+    position: absolute;
+    right: 95px;
+
+}
+.dotThree{
+    position: absolute;
+    right: 76px;
+}
+.dotFour{
+    position: absolute;
+    right: 57px;
+}
+.dotFive{
+    position: absolute;
+    right: 38px;
+}
+/* .contextOne .dotFive:hover .contextOneMain{
+    background: url(../images/rotation2.jpg);
+} */
+
+/* 左部列表 */
+.leftList{
+    width: 234px;
+    height: 430px;
+    padding: 15px 0px;
+    background:#0d1c52;
+    
+    
+}
+.leftList a{
+    display: block;
+    width: 174px;
+    line-height: 43px;
+    font-size: 12px;
+    font-family: '微软雅黑';
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:#fff;
+    background:#0d1c52;
+    float: left;
+    
+}
+span{
+    font-size: 18px;
+    float: right;
+  
+}
+/* 左部列表弹窗 */
+
+.leftListAlert{
+    width: 993px;
+    height: 460px;
+    background: #fff;
+    position: absolute;
+    left: 234px;
+    top: 0px;
+    display: none;
+}
+
+.leftListAlert .alertOne{
+    width: 993px;
+    height: 460px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 10px 5px 0 #ccc; 
+    /* display: none; */
+}
+.leftListAlert .alertOne li a{
+    display: block;
+    width: 225px;
+    height: 58px;
+    padding-left: 23px;
+    padding-right: 0px;
+    /* line-height: 77px; */
+    padding-top: 19px;
+    background: #fff;
+
+}
+.listOne>a:hover {
+    background: #ff6700;
+}
+
+.contextOne .leftList li:hover .leftListAlert{
+    display: block;
+}
+
+/* 内容二 */
+
+/* 有效区 */
+
+.contextTwo{
+    width: 100%;
+    height: 170px;
+    margin-top: 14px;
+    background: #fff;
+}
+.contextMain{
+    width: 1226px;
+    height: 170px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+/* 功能区 */
+.function{
+    width: 216px;
+    height: 152px;
+    background: #5f5750;
+    margin-right: 15px;
+    float: left;
+    padding: 9px;
+}
+.function a{
+    display: block;
+    width: 71px;
+    height: 56px;
+    background: #5f5750;
+    border-right: 1px solid #665e57;
+    border-bottom: 1px solid #665e57; 
+    float: left;
+    padding-top: 20px;
+    background: url(../images/xuebitu.jpg);
+    
+}
+.tel,.present,.Fcode,.mifans,.old,.fine{
+    width: 26px;
+    height: 26px;
+    /* border: 1px solid #000; */
+    margin-left: 25px;
+}
+.tel{
+    background: url(../images/xuebitu.jpg) 207px -20px;
+    
+}
+.present{
+    background: url(../images/xuebitu.jpg) 131px -20px;
+}
+.Fcode{
+    background: url(../images/xuebitu.jpg) 55px -20px;
+}
+.mifans{
+    background: url(../images/xuebitu.jpg) 207px -102px;
+}
+.old{
+    background: url(../images/xuebitu.jpg) 131px -102px;
+}
+.fine{
+    background: url(../images/xuebitu.jpg) 55px -102px;
+}
+.contextMain .function a:hover .tel{
+    background: url(../images/xuebitu2.jpg) 207px -20px;
+}
+.contextMain .function a:hover .present{
+    background: url(../images/xuebitu2.jpg) 131px -20px;
+}
+.contextMain .function a:hover .Fcode{
+    background: url(../images/xuebitu2.jpg) 55px -20px;
+}
+.contextMain .function a:hover .mifans{
+    background: url(../images/xuebitu2.jpg) 207px -102px;
+}
+.contextMain .function a:hover .old{
+    background: url(../images/xuebitu2.jpg) 131px -102px;
+}
+.contextMain .function a:hover .fine{
+    background: url(../images/xuebitu2.jpg) 55px -102px;
+}
+.contextMain .function a:hover p{
+    color:#fff;
+}
+.function .functionThree{
+    border-right:none;
+}
+.function .functionSix{
+    border-right:none;
+}
+.function .functionFour{
+    border-bottom: none;
+}
+.function .functionFive{
+    border-bottom: none;
+}
+.function .functionSix{
+    border-bottom: none;
+}
+.contextMain .function>a img{
+    margin-left: 24px;
+}
+.contextMain .function>a p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 26px;
+    color: #cfcdcb;
+}
+.circle1{
+    width: 12px;
+    height: 12px;
+    background: #5f5750;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 80px;
+}
+.circle2{
+    width: 12px;
+    height: 12px;
+    background:#5f5750;
+    border-radius: 50%;
+    position: absolute;
+    left:146px;
+    top: 80px;
+}
+
+
+
+
+/* 广告区 */
+.contextMain .ad a{
+    width: 316px;
+    height: 170px;
+    margin-right: 14px;
+    float: left;
+    position: relative;
+
+}
+.contextTwo .contextMain .ad .adLast{
+    margin-right: 0;
+}
+.adWords{
+    position: absolute;
+    left:80px;
+    top: 27px;
+}
+.ad .adWords h3{
+    color:#fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+.ad .adWords p{
+    /* word-spacing: 10px; */
+    color:#fff;
+    font-size: 14px;
+}
+
+/* 小米闪购 */
+
+/* .buy{
+    width: 100%;
+    height: 85px;
+    background: #fff;
+} */
+.buyMain{
+    width: 1226px;
+    height: 60px;
+    background: #fff;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+/* 小米闪购标题文字 */
+.buyMain h2{
+    font-size: 21px;
+    line-height: 59px;
+    color: #000;
+    font-size: '微软雅黑';
+    float: left;
+}
+/* 小米闪购右侧文字 */
+.buy .buyMain .pages a{
+    display: block;
+    width: 34px;
+    height: 21px;
+    /* background: red; */
+    border: 1px solid #ccc;
+    margin-top: 22px;
+    float: right;
+}
+
+/* .buyMain .pages .box{
+    width: 3px;
+    height: 3px;
+    background: yellow;
+    z-index: 2;
+} */
+/* .pages{
+    float: right;
+    margin-top: 22px;
+} */
+/* .leftPages,.rightPages{
+    display: block;
+    width: 34px;
+    height: 21px;
+} */
+
+
+/* 内容三 */
+.contextThree{
+    width: 100%;
+    height: 339px;
+    /* background: pink; */
+}
+.contextThreeMain{
+    width: 1226px;
+    height: 339px;
+    /* background: gray; */
+    margin: 0 auto;
+    /* padding-left: 10px; */
+}
+
+/* 内容三图片 */
+
+.contextThreeMain li a{
+    display: block;
+    width: 235px;
+    height: 336px;
+    margin-right: 12px;
+    float: left;
+    position: relative;
+    
+}
+.contextThree .contextThreeMain li .picOne{
+    border-top: 1px solid #e53935;
+}
+.contextThree .contextThreeMain li .picTwo{
+    border-top: 1px solid #ffac13;
+}
+.contextThree .contextThreeMain li .picThree{
+    border-top: 1px solid #83c44e;
+}
+.contextThree .contextThreeMain li .picFour{
+    border-top: 1px solid #2196f3;
+}
+.contextThree .contextThreeMain li .picFive{
+    border-top: 1px solid #e53935;
+    margin-right: 0;
+}
+.picWords{
+    text-align: center;
+    position: absolute;
+    left: 58px;
+    bottom: 42px;
+}
+.picWords h4{
+    font-size: 12px;
+    font-family: '微软雅黑';
+    color: black;
+}
+.picWords h5{
+    font-size: 12px;
+    line-height: 34px;
+    font-family: '微软雅黑';
+    color:#ccc;
+}
+.picWords p{
+    font-size: 12px;
+    line-height: 34px;
+    line-height: 18px;
+}
+/* 第一张图片上的倒计时及文字 */
+
+.firstPic{
+    width: 168px;
+    height: 92px;
+    background: #f1eded;
+    position: absolute;
+    left: 35px;
+    bottom: 42px;
+}
+.firstPic h2{
+    font-size: 14px;
+    text-align: center;
+    font-family: '微软雅黑';
+    color:#ccc;
+}
+/* .firstPic .time .timerOne{
+    width: 46px;
+    height: 46px;
+    background: #605751;
+} */
+
+/* slogan王源 */
+ .sloganMain{
+    width: 1226px;
+    height: 120px;
+    margin: 40px auto;
+    background: url(../images/slogan.png);
+}
+/* 手机标题部分 */
+.phoneTitle{
+    width: 100%;
+    height: 82px;
+    background: #f5f5f5;
+}
+.phoneTitle h1{
+    width: 1226px;
+    height: 57px;
+    margin-top: 42px;
+    padding-top: 21px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    font-size: 18px;
+    font-family: '微软雅黑'; 
+    line-height: 57px; 
+}
+.seeAll{
+    display: block;
+    width: 120px;
+    height: 61px;
+    /* background: yellow; */
+    line-height: 61px;
+    font-size: 17px;
+    color: #424242;
+    background: url(../images/seeAll.png) no-repeat 73px 20px;
+    float: right;
+}
+.phoneTitle a:hover{
+   color:#ff6b00;
+   background: url(../images/seeAll2.png) no-repeat 73px 20px;
+}
+
+/* 手机部分 */
+
+.phoneSecMain{
+    width: 1226px;
+    height: 615px;
+    margin: 0 auto;  
+}  
+/* 左边大图部分 */
+.phoneSec{
+    width: 100%;
+    height: 615px;
+    background: #f5f5f5;
+}
+.phoneSecMain .phoneRight a{
+    display: block;
+    width: 235px;
+    height: 262px;
+    background: #fff;
+    margin-right: 10px;
+    padding-top: 38px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+}
+.phoneSecMain .phoneRight a:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+.phoneSecMain .phoneLeft a:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+.phoneSecMain .phoneRight .fourth{
+    margin-right: 0px;
+}
+.phoneSecMain .phoneRight img{
+    margin-left: 67px;
+}
+.phoneRight a .newPro{
+    width: 64px;
+    height: 20px;
+    background: #83c44e;
+    position: absolute;
+    left: 85px;
+    top: 0px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+
+    /* margin-top: -38px; */
+}
+.phoneRight a .discount{
+    width: 64px;
+    height: 20px;
+    background: #e53935;
+    position: absolute;
+    left: 85px;
+    top: 0px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+}
+.phoneRight{
+    width:980px;
+    height:618px;
+    float: right;
+}
+.phoneRight  h5{
+    font-size: 13px;
+    line-height: 33px;
+    margin-top: 28px;
+    color: #000;
+    font-family: '微软雅黑';  
+}
+.phoneRight h6{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+    font-family: '微软雅黑';
+}
+.phoneRight .smallPicWords{
+    width: 193px;
+    text-align: center;
+    margin-left: 25px;
+}
+.phoneRight .smallPicWords p{
+    font-size: 12px;
+    color: #ff6700;
+    line-height: 48px;    
+    font-family: '微软雅黑';
+}
+/* .phoneRight .smallPicWords span{
+    margin-left: 0;
+    font-size: 12px;
+    text-decoration: line-through;
+} */
+/* 小米电视广告图  */
+.miTV{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.miTVMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/miTV.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+
+/* <!-- 家电标题 --> */
+.machineTitle{
+    width: 100%;
+    height: 78px;
+    background: #f5f5f5;
+}
+.machineTitleMain{
+    width: 1226px;
+    height: 59px;
+    margin: 0 auto;
+    padding-top: 19px;
+    /* background: yellow; */
+}
+.machineTitleMain h1{
+    font-size: 22px;
+    line-height: 60px;
+    font-family: '微软雅黑';
+    float: left;;
+}
+.machineTitle .machineTitleMain>ul{
+    height: 27px;
+    width: 249px; 
+    float: right;
+}
+.machineTitle .machineTitleMain>ul>li{
+    height: 27px;
+    font-size: 15px;
+    /* color: #000; */
+    font-family: '微软雅黑';
+    /* width: 16px; */
+    /* background: red; */
+    margin-top: 20px;
+    margin-right: 32px;
+   line-height: 27px;
+    float: left;
+}
+.machineTitle .machineTitleMain .home{
+    margin-right: 0px;
+}
+.machineTitle .machineTitleMain>ul>li a{
+    color: #000;
+   
+}
+.machineTitle .machineTitleMain>ul>li a:hover{
+    color: #ff6700;
+}
+
+/* .machineTitle .machineTitleMain>ul>li>videoAlert{
+    width: 991px;
+    height: 615px;
+    background: yellow;
+}
+.machineTitle .machineTitleMain>ul>li>videoAlert>li{
+    width: 235px;
+    height: 300px;
+} */
+/* .machineTitle .machineTitleMain>li .furnAlert .furnAlertOne{
+    width: 991px;
+    height: 615px;
+} */
+
+
+/* 家电内容 */
+.furn{
+    width: 100%;
+    height: 615px;
+    background: #f5f5f5;
+}
+.furnMain{
+    /* width: 1226px; */
+    height: 615px;
+    background: #f5f5f5;
+    margin:0 auto;
+}
+.furnLeft{
+    width: 235px;
+    height: 615px;
+    margin-left: -40px;
+    /* background:blue; */
+    float: left;
+}
+.furnRight{
+    width: 991px;
+    height: 615px;
+    /* background: red; */
+    float: left;
+    /* padding-right: 15px; */
+}
+
+/* 家电左侧区域 */
+.furnLeft li{
+    width: 235px;
+    height: 300px;
+
+}
+.furnLeft .furnLeftPic{
+    margin-bottom: 14px;
+}
+.furnLeft li a>img{
+    display: block;
+}
+/* 家电右侧区域 */
+.furnRight li a>img{
+    display: block;
+    margin: 87px auto;
+    margin-bottom: 71px;
+}
+.furnMain .furnRight>ul>li>a{
+    width: 235px;
+    height: 300px;
+    background: #fff;
+    margin-left: 12px;
+    margin-bottom: 14px;
+    position: relative;
+    float: left;   
+    /* box-shadow: 4px 7px 8px 0 #ccc; */
+    
+}
+.furnMain .furnRight>ul>li>a:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+.furnRight li a .furnWords{
+    margin-left: 15px;
+    text-align: center;
+}
+.furnRight li a .furnWords h4{
+    /* margin-top: -20px; */
+    /* margin-left: 24px; */
+    font-size: 13px;
+    line-height: 27px;
+    color: #000; 
+    font-family: '微软雅黑';   
+}
+.furnRight li a .furnWords h5{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+    font-family: '微软雅黑';
+}
+.furnRight li a .furnWords p{
+    font-size: 12px;
+    line-height: 46px;
+    color: #ff6700;
+    font-family: '微软雅黑';
+}
+.furnRight a .furnNewPro{
+    width: 64px;
+    height: 20px;
+    background: #83c44e;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+    float: left;
+    margin-left: 84px;
+}
+.furnRight a .furnDicount{
+    width: 64px;
+    height: 20px;
+    background: #bb0d0e;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+    float: left;
+    margin-left: 84px;
+}
+.furnRight .smallAlert{
+    width: 195px;
+    height:40px;
+    background: #ff6b00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 20px;
+    /* text-align: center; */
+    display: none;
+}
+.furnRight .smallAlert p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;    
+}
+.furnRight .smallAlert span{
+    font-size: 12px;
+    color: #ece5d3;
+    line-height: 20px;
+    /* margin-left: 20px; */
+}
+.furnMain .furnRight>ul>li>a:hover .smallAlert{
+    display: block;
+}
+/* 生活毛巾广告长图 */
+.maojin{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.maojinMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/adLongPic.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+
+/* 智能部分 */
+.intel{
+    width: 100%;
+    height: 695px;
+    background: #f5f5f5;
+}
+.intelMain{
+    width: 1226px;
+    height: 695px;
+    background: #f5f5f5;
+    margin:0 auto;
+}
+.intelTop{
+    width: 1226px;
+    height: 78px;
+    float: left;
+}
+.intelLeft{
+    width: 235px;
+    height: 615px;
+    float: left;
+}
+
+/* 右下部弹窗 */
+
+.intel .intelMain .intelTop{
+    position: relative;
+}
+
+.intelAlert{
+    width: 991px;
+    height: 615px;
+    position: absolute;
+    left: 235px;
+    top: 78px;
+}
+.intelAlertOne{
+    display: block;
+}
+
+.intelAlertTwo{
+    display: none;
+}
+.intel .intelMain .intelTop ul .travel:hover .intelAlertTwo{
+    display: block;
+}
+
+.intelAlertThree{
+    display: none;
+}
+.intel .intelMain .intelTop ul .health:hover .intelAlertThree{
+    display: block;
+}
+
+.intelAlertFour{
+    display: none;
+}
+.intel .intelMain .intelTop ul .play:hover .intelAlertFour{
+    display: block;
+}
+
+.intelAlertFive{
+    display: none;
+}
+
+.intelAlert li a>img{
+    display: block;
+    margin: 87px auto;
+    /* margin-bottom: 71px; */
+}
+.intelTop .intelAlert>ul>li>a{
+    width: 235px;
+    height: 300px;
+    background: #fff;
+    margin-left: 12px;
+    margin-bottom: 14px;
+    float: left;   
+}
+.intelMain .intelAlert>ul>li>a:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+
+
+
+.intelAlert li a .alertWords{
+    margin-left: 15px;
+    text-align: center;
+}
+.intelAlert li a .alertWords h4{
+    font-size: 13px;
+    line-height: 27px;
+    color: #000; 
+    font-family: '微软雅黑';   
+}
+.intelAlert li a .alertWords h5{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+    font-family: '微软雅黑';
+}
+.intelAlert li a .alertWords p{
+    font-size: 12px;
+    line-height: 46px;
+    color: #ff6700;
+    font-family: '微软雅黑';
+}
+.intelAlert a .alertNewPro{
+    width: 64px;
+    height: 20px;
+    background: #83c44e;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+    float: left;
+    margin-left: 84px;
+}
+.intelAlert a .alertDicount{
+    width: 64px;
+    height: 20px;
+    background: #bb0d0e;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    font-family: '微软雅黑';
+    text-align: center;
+    float: left;
+    margin-left: 84px;
+}
+
+.intelTop{
+    width: 1226px;
+    height: 59px;
+    margin: 0 auto;
+    padding-top: 19px;
+}
+.intelTop h1{
+    font-size: 22px;
+    line-height: 60px;
+    font-family: '微软雅黑';
+    float: left;;
+}
+.intelMain .intelTop>ul{
+    height: 27px;
+    width: 296px; 
+    float: right;
+}
+.intelMain .intelTop>ul>li{
+    height: 27px;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    margin-top: 20px;
+    margin-right: 32px;
+   line-height: 27px;
+    float: left;
+}
+.intelMain .intelTop>ul>li a{
+    color: #000;
+    text-align: center;
+}
+.intelMain .intelTop>ul>li a:hover{
+    color: #ff6700;
+}
+
+.intelMain .intelTop .router{
+    margin-right: 0px;
+}
+
+/* 智能部分底部左侧 */
+.intelLeft li{
+    width: 235px;
+    height: 300px;
+
+}
+
+.intelLeft .intelLeftPic{
+    margin-bottom: 14px;
+}
+.intelLeft li a>img{
+    display: block;
+}
+
+/* 15.6小米笔记本 */
+.loptop{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.loptopMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/loptop.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+
+/* 搭配部分 */
+
+
+/* 米家电暖气 */
+.warm{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.warmMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/worm.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+/* 配件部分 */
+
+/* 小米蓝牙耳机 */
+.miTV{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.miTVMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/earsphone.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+/* 周边部分 */
+
+/* 米家智能门锁 */
+.miTV{
+    width: 100%;
+    height: 120px;
+    background: #f5f5f5;
+    padding-top: 42px;
+}
+.miTVMain{
+    width: 1220px;
+    /* margin-left: 63px; */
+    height: 120px;
+    margin: 0 auto;
+    background: url(../images/key.png) no-repeat;
+    /* margin-top: 42px; */
+    /* margin-bottom:  */
+}
+/* 为你推荐 */
+
+/* 热评产品 */
+/* 内容 */
+.passage{
+    width: 100%;
+    height: 420px;
+    background: #f5f5f5;
+}
+.passageMain{
+    width: 1226px;
+    height: 420px;
+    background: #f5f5f5;
+    margin: 0 auto;
+}
+.passage .passageMain li{
+    width: 296px;
+    height: 420px;
+    background: #fff;
+    float: left;
+    margin-right: 14px;
+    position: relative;
+    
+}
+.passage .passageMain .passageLast{
+    margin-right: 0px;
+    border-top: 1px solid #2196f3;
+}
+.passage .passageMain .passageFirst{
+    border-top: 1px solid #ffac13;
+}
+.passage .passageMain .passageSec{
+    border-top: 1px solid #83c44e;
+}
+.passage .passageMain .passageThirth{
+    border-top: 1px solid #e53935;
+}
+/* .passage .passageMain li img{
+    margin:0 auto;
+}  */
+.passageMain li a>img{
+    display: block;
+    margin: 210px auto;
+    /* margin-bottom: 71px; */
+}
+.passageWords{
+    width: 235px;
+    height: 83px;
+    /* background: red; */
+    float: left;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.passageWords h3{
+    font-size: 14px;
+    line-height: 14px;
+    color: #83c44e;
+    padding-bottom: 11px;
+    font-family: '微软雅黑';
+}
+.passageWords h4{
+    font-size: 19px;
+    line-height: 40px;
+    color: #000;
+}
+.passageWords p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+}
+.toLeft,.toRight{
+    width: 41px;
+    height: 69px;
+    /* border: 1px solid black; */
+    top: 175px;
+    
+}
+.toLeft{
+    position: absolute;
+    left: 0px;
+    background: url(../images/dir.png) no-repeat 0 0;
+    display: none;
+}
+.toRight{
+    position: absolute;
+    right: 0px;
+    background: url(../images/dir.png) no-repeat -42px 0;  
+    display: none; 
+}
+.passage .passageMain li:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+.passage .passageMain li:hover .toLeft{
+    display: block;
+}
+.passage .passageMain li:hover .toRight{
+    display: block;
+}
+/* 视频部分标题 */
+/* 视频部分内容 */
+.video{
+    width: 100%;
+    height: 285px;
+    background: #f5f5f5;
+}
+.videoMain{
+    width: 1226px;
+    height: 285px;
+    margin: 0 auto;
+}
+.video .videoMain li{
+    width: 296px;
+    height: 285px;
+    float: left;
+    margin-right: 14px;
+    /* box-shadow: 13px 11px 11px 0 #ccc; */
+    position: relative;
+}
+.video .videoMain .videoLast{
+    margin-right: 0px;
+}
+.video .videoMain li .videoWords{
+    width: 192px;
+    height: 50px;
+    /* background: red; */
+    margin-left: 52px;
+    text-align: center;
+}
+.video .videoMain li .videoWords a{
+    font-size: 13px;
+    line-height: 41px;
+    color: #000;
+    font-family: '微软雅黑';
+}
+.video .videoMain li p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+}
+.video .videoMain li .videoWords a:hover{
+    color: #ff6b00;
+}
+.video .videoMain li:hover .playVideo{
+    background: #ff6b00;
+}
+.video .videoMain li:hover{
+    box-shadow: 4px 7px 8px 0 #ccc;
+}
+.video .videoMain .playVideo{
+    display: block;
+    width: 36px;
+    height: 28px;
+    border: 1px solid #fff;
+    border-radius: 30%;
+    position: absolute;
+    left:20px ;
+    bottom: 115px;
+}
+.video .videoMain .playVideo .turnOn{
+    width: 0px;
+    height: 0px;
+    /* background: yellow; */
+    border-width:6px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+/* 页面最底部 */
+
+/* 页面右部固定跟随 */
+.follow{
+    width: 82px;
+    height: 560px;
+    /* background: red; */
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -230px;
+    background: #fff;
+    /* z-index: -1; */
+
+    /* top: -20px; */
+
+}
+.follow a{
+    display: block;
+    width: 82px;
+    height: 90px;
+    /* background: pink; */
+    margin-bottom: 2px;
+    color: #000;
+    font-family: '微软雅黑';
+}
+.follow a p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+}
+.follow a img{
+    margin-left: 26px;
+    margin-top: 22px;
+}
+.follow .returnTop{
+    margin-bottom: 0px;
+    margin-top:16px; 
+}
+
+
+/* .download{
+    border-width: 12px;
+    border-color:transparent transparent #fff;
+    border-style: solid;
+    position: absolute;
+    left:18px;
+    top: 1px;
+    display: none;
+} */
+.download{
+    position: relative;
+}
+.downloadCode{
+    width: 131px;
+    height: 200px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    background: #fff;
+    position: absolute;
+    left: -170px;
+    top: -2px;
+    /* padding-top: 38px; */
+    padding-left: -2px;
+    padding-right: 24px;
+    display: none;
+    box-shadow: 0 0 5px 0 #ccc; 
+    z-index: 1;
+}
+.downloadCode p{
+   font-size: 12px;
+   line-height: 20px;
+   margin-left: 16px;
+   color: #000;
+}
+.download:hover .downloadCode{
+    display: block;
+}
+/* .app:hover .trangle{
+  display: block;
+} */
+.follow>ul>li:hover p{
+    color: #ff6b00;
+}
+    

@@ -1,0 +1,149 @@
+/* logo区 */
+.loginLogo{
+    width: 100%;
+    height: 98px;
+    /* background: red; */
+
+}
+.loginLogoMain{
+    width: 1130px;
+    height: 73px;
+    /* background: yellow; */
+    padding-top: 25px;
+    margin: 0 auto;
+}
+.logoMain{
+    width: 48px;
+    height: 48px;
+    margin-right: 22px;
+    /* background: blue; */
+    /* padding-top: 25px; */
+    float: left;
+}
+
+.logoWords{ 
+
+    float: left;
+   
+}
+.logoWords  h2{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: '微软雅黑';
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+.logoWords p{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -2px;
+    color: #666;
+    /* font-family: '微软雅黑'; */
+}
+/* 登录信息区 */
+.loginInfor{
+    width: 100%;
+    height: 526px;
+    background: #e2e2e2;
+}
+.loginInforMain{
+    width: 1130px;
+    height: 448px;
+    padding-top: 30px;
+    background:url(../images/logoAreabg.png) no-repeat; 
+    /* background: blue; */
+    margin: 0 auto;
+}
+.peoInfor{
+    width: 410px;
+    height: 465px;
+    padding-top: 30px;
+    background:#fff;
+    float: right;
+}
+.peoInfor .loginTop a{
+    display: block;
+    width: 173px;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    height: 30px;
+    font-family: '微软雅黑';
+    text-align: center;
+    /* border-right: 1px solid #999; */
+    float: left;
+}
+.peoInfor .account{
+    border-right: 2px solid #999;
+    margin-left: 30px; 
+}
+.peoInfor a:hover{
+    color: #f56600;
+}
+.names,.password{
+    width: 332px;
+    height: 48px;
+    border: 1px solid #666;
+    margin-left: 30px;
+    margin-top: 34px;
+    padding-left: 14px;
+    outline: none;
+}
+.names{
+    margin-top: 34px;
+}
+.password{
+    margin-top: 14px;  
+}
+.loginBtn{
+    width: 346px;
+    height: 48px;
+    background: #ef5b00;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 24px;
+    letter-spacing: 2px;
+    outline: none;
+    margin-bottom: 13px;
+}
+ .forgetLeft{
+    width: 210px;
+    height: 14px;
+    margin-left: 30px;
+    /* background: red; */
+    float: left;
+}
+.forgetRight{
+    width: 138px;
+    height: 14px;
+    /* background: gray; */
+    float: left;
+}
+.forget a{
+    color:#ef5b00;
+}
+.forgetRight a{
+    display: block;
+    width: 50px;
+    font-size: 12px;
+    padding: 0 6px;
+    color: #000;
+   
+}
+.forgetRight li{
+    float: left;
+}
+.forgetRight .forgetRightOne a{
+    border-right: 1px solid #666;
+    padding-left: 0;
+}
+.forgetRight .forgetRightTwo a{
+    display: block;
+    padding-right: 0;
+    width: 62px;
+    
+}
+
+.loginIcon li{
+    float: left;
+}
